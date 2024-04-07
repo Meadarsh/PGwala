@@ -1,0 +1,57 @@
+@layer utilities {
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+      display: none;
+  }
+ /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+      -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;  /* Firefox */
+}
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  box-sizing: border-box;
+  
+}
+*::selection{
+  background-color: transparent;
+}
+body{
+  width: 100vw;
+  overflow-x: hidden;
+  position: relative;
+}
+
+@font-face {
+  font-family: Gilroy;
+  src: url("/Fonts/Gilroy-Regular.ttf");
+}
+.scrollbarnone{
+  ::-webkit-scrollbar {
+    width: 0px;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #8a0000;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #cf0000;
+}

@@ -1,0 +1,15 @@
+/* Apply the style to the input type number */
+
+  
+  /* For WebKit-based browsers like Chrome and Safari */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  /* Remove the arrows for IE and Edge */
+  input[type="number"] {
+    -ms-inner-appearance: textfield;
+  }
+  
