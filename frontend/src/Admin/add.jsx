@@ -512,7 +512,7 @@ useEffect(()=>{
                       onChange={(e) => setParking(e.target.value)}
                       value={parking}
                     >
-                      <option value="0"> </option>
+                      <option value=""> </option>
                       <option value="0">Not available</option>
                       <option value="1">Available</option>
                     </select>
