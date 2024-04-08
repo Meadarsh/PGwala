@@ -17,7 +17,7 @@ const AddProperty = () => {
   const [furnishing, setFurnishing] = useState('0'); // default to "null"
   const [flatType, setFlatType] = useState('0'); // default to "null"
   const [bathroom, setBathroom] = useState('0'); // default to "null"
-  const [parking, setParking] = useState('0'); // default to "null"
+  const [parking, setParking] = useState(''); // default to "null"
   const [balcony, setBalcony] = useState('0'); // default to "null"
   const [totalFloor, setTotalFloor] = useState('');
   const [onFloor, setOnFloor] = useState('');
@@ -79,7 +79,7 @@ const AddProperty = () => {
     setFlatType('0');
     setWashroom('')
     setBathroom('0');
-    setParking('0');
+    setParking('');
     setBalcony('0');
     setTotalFloor("");
     setOnFloor("");
