@@ -622,10 +622,10 @@ const Upload= async()=>{
                       className="scale-125"
                       name="Visitors entry"
                       id="noVisitors"
-                      onChange={() => handleRadioChange("visitorsEntry", " ")}
-                      checked={amenities.visitorsEntry === " "}
+                      onChange={() => handleRadioChange("visitorsEntry", "No")}
+                      checked={amenities.visitorsEntry === "No"}
                     />
-                    &nbsp; 
+                    &nbsp;No
                   </label>
                 </div>
               </div>
@@ -650,10 +650,10 @@ const Upload= async()=>{
                       name="Drinking"
                       className="scale-125"
                       id="noDrinking"
-                      onChange={() => handleRadioChange("drinking", " ")}
-                      checked={amenities.drinking === " "}
+                      onChange={() => handleRadioChange("drinking", "No")}
+                      checked={amenities.drinking === "No"}
                     />
-                    &nbsp; 
+                    &nbsp;No
                   </label>
                 </div>
               </div>
@@ -678,10 +678,10 @@ const Upload= async()=>{
                       className="scale-125"
                       name="smoking"
                       id="noSmoking"
-                      onChange={() => handleRadioChange("smoking", " ")}
-                      checked={amenities.smoking === " "}
+                      onChange={() => handleRadioChange("smoking", "No")}
+                      checked={amenities.smoking === "No"}
                     />
-                    &nbsp; 
+                    &nbsp;No 
                   </label>
                 </div>
               </div>
@@ -706,10 +706,10 @@ const Upload= async()=>{
                       className="scale-125"
                       name="Food"
                       id="noFood"
-                      onChange={() => handleRadioChange("food", " ")}
-                      checked={amenities.food === " "}
+                      onChange={() => handleRadioChange("food", "No")}
+                      checked={amenities.food === "No"}
                     />
-                    &nbsp; 
+                    &nbsp;No
                   </label>
                 </div>
               </div>
@@ -734,10 +734,10 @@ const Upload= async()=>{
                       name="kitchen"
                       className="scale-125"
                       id="noKitchen"
-                      onChange={() => handleRadioChange("kitchen", " ")}
-                      checked={amenities.kitchen === " "}
+                      onChange={() => handleRadioChange("kitchen", "No")}
+                      checked={amenities.kitchen === "No"}
                     />
-                    &nbsp; 
+                    &nbsp;No
                   </label>
                 </div>
               </div>:null}
