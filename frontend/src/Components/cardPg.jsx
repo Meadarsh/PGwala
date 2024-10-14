@@ -97,7 +97,7 @@ const CardPg = ({data}) => {
 {data.securityDeposit&&<p className="text-lg">Security deposit: <span className="font-semibold">{data.securityDeposit}</span> ₹</p>}
 
         <p className="lg:font-semibold text-red-800 mt-1">
-        {data.rentalType} <span className="font-normal">available in {data.city},{data.state}</span>
+        {data.rentalType!='0'&&<span>{data.rentalType}</span>} <span className="font-normal">available in {data.city},{data.state}</span>
         </p>
        </div>
        <div onClick={()=>setMoreOpen(!moreOpen)} className=" cursor-pointer shadow-sm rounded-lg text-red-700 absolute right-2 lg:right-6 top-3  h-10 px-1  bg-slate-100 flex items-center">

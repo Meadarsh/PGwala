@@ -16,7 +16,7 @@ const Hilightscard = ({data}) => {
             </Link>
       </div>
      <div className='p-4'>
-     <span className='text-xl font-semibold '>{data.rent} ₹</span>
+     {data.rent&&<span className='text-xl  font-semibold '>{data.rent} ₹</span>}
      <h5 className='font-medium text-nowrap'><span className='text-red-800'>{data.flatType}</span> for rent in {data.city},{data.state}</h5>
      <div className='flex gap-2 overflow-hidden  mt-2'>
 

@@ -7,6 +7,7 @@ import 'swiper/swiper-bundle.css';
 import { RentPageSlider } from '../Data/data';
 import Card from '../Components/card';
 import Footer from '../Components/footer';
+import { Helmet } from 'react-helmet';
 
 const Rent = () => {
   const [data,setData]=useState()
@@ -53,6 +54,19 @@ setSearched(filteredFlats)
 
   return (
     <div  className="w-full overflow-x-hidden relative">
+       <Helmet>
+        <title>
+        One 1 Bhk, 2 Two Bhk Flat for Rent in Malad West, Goregaon East, West - Flat4U
+        </title>
+        <meta
+          name="description"
+          content="Are you looking for One Bhk or 2 BHk flat for rent in Malad West? Look no further!  We can provide you the best 1 Bhk flat for rent in Goregaon West."
+        />
+        <meta
+          name="keywords"
+          content="One Bhk For Rent in Malad West, 2 Bhk Flat For Rent in Malad West , 1 Bhk flat for rent in Goregaon West, One Bhk For Rent in Goregaon East, 2 Bhk Flat For Rent in Goregaon East"
+        />
+      </Helmet>
       <h1 className='text-5xl lg:text-[4vw] font-bold absolute z-10 text-red-800 origin-center lg:left-[46%] left-[36%] lg:top-[20vh] top-[10vh] text-center'>Rent</h1>
      <Swiper
           modules={[Autoplay,Navigation]}
