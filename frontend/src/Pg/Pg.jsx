@@ -68,8 +68,7 @@ const PG = () => {
     <>
       <Helmet>
         <title>
-          Male & Female PG Accommodation, Goregaon East, West, Malad West,
-          Andheri West - Flat4U
+          Best Male & Female PG Accommodation, Goregaon East, West - FLAT4U
         </title>
         <meta
           name="description"
