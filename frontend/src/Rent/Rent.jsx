@@ -56,7 +56,7 @@ setSearched(filteredFlats)
     <div  className="w-full overflow-x-hidden relative">
        <Helmet>
         <title>
-        One 1 Bhk, 2 Two Bhk Flat for Rent in Malad West, Goregaon East, West - Flat4U
+        Best 1 Bhk, 2 Bhk Flat for Rent in Malad West, Goregaon East.
         </title>
         <meta
           name="description"
