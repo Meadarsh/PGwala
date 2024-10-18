@@ -12,7 +12,7 @@ const Home = () => {
     <>
        <Helmet>
       {/* Primary Meta Tags */}
-      <title>Flat4U - Find Flats, Rooms, and PG Rentals, Goregaon East, West, Malad West, Andheri West</title>
+      <title>Flat4u.net- Find Rental Apartment, PG & Sharing Flats in Goregaon & Malad</title>
       <meta
         name="description"
         content="Flat 4 U is your most reliable choice to find Flats, Rooms, and PG Rentals in Goregaon East, West, Malad West, Andheri West. Visit us now for more information."
