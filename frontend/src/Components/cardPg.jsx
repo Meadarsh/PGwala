@@ -142,12 +142,12 @@ const CardPg = ({data}) => {
             <p className=" text-md font-medium"><span className="font-semibold text-lg">Address : </span>{data.address}</p>
 
         </div>
-        <div className="flex gap-2 ">
+        <div className="flex gap-2 justify-evenly">
             <Link to={"https://wa.me/+918652869869"}>
-                <div className="flex justify-center items-center lg:px-3 hover:bg-green-700 py-2  text-white text-lg bg-green-800 rounded-xl gap-4"> <FaWhatsapp/> Message</div>
+                <div className="flex justify-center items-center px-3  hover:bg-green-700 py-2  text-white text-lg bg-green-800 rounded-xl gap-4"> <FaWhatsapp/> Message</div>
             </Link>
             <Link to={'/contact'}>
-                <div className="flex justify-center items-center lg:px-3 hover:bg-red-700 py-2  text-white text-lg bg-red-800 rounded-xl gap-4"><IoCall/> Contact</div>
+                <div className="flex justify-center items-center px-3 hover:bg-red-700 py-2  text-white text-lg bg-red-800 rounded-xl gap-4"><IoCall/> Contact</div>
             </Link>
         </div>
        </div>

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { HiOutlineRectangleGroup } from "react-icons/hi2";
 import { IoBedOutline } from "react-icons/io5";
-import { FaCarSide, FaShower, FaRegBuilding } from "react-icons/fa";
+import { FaCarSide, FaShower, FaRegBuilding, FaWhatsapp } from "react-icons/fa";
 import { MdBalcony } from "react-icons/md";
 import { Link } from "react-router-dom";
 import { IoCall } from "react-icons/io5";
@@ -208,12 +208,12 @@ const Card = ({ data }) => {
               {data.address}
             </p>
           </div>
-          <div className="flex gap-2 ">
+          <div className="flex gap-2 justify-evenly">
             <Link to={"https://wa.me/+918652869869"}>
-                <div className="flex justify-center items-center lg:px-3 hover:bg-green-700 py-2  text-white text-lg bg-green-800 rounded-xl gap-4"> <FaWhatsapp/> Message</div>
+                <div className="flex justify-center items-center px-3  hover:bg-green-700 py-2  text-white text-lg bg-green-800 rounded-xl gap-4"> <FaWhatsapp/> Message</div>
             </Link>
             <Link to={'/contact'}>
-                <div className="flex justify-center items-center lg:px-3 hover:bg-red-700 py-2  text-white text-lg bg-red-800 rounded-xl gap-4"><IoCall/> Contact</div>
+                <div className="flex justify-center items-center px-3 hover:bg-red-700 py-2  text-white text-lg bg-red-800 rounded-xl gap-4"><IoCall/> Contact</div>
             </Link>
         </div>
         </div>
