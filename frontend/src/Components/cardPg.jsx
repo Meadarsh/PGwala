@@ -8,6 +8,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import {Autoplay,Navigation} from "swiper/modules"
 import "swiper/css";
 import 'swiper/css/navigation';
+import { FaWhatsapp } from "react-icons/fa";
 
 
 const CardPg = ({data}) => {
@@ -141,7 +142,10 @@ const CardPg = ({data}) => {
             <p className=" text-md font-medium"><span className="font-semibold text-lg">Address : </span>{data.address}</p>
 
         </div>
-        <div>
+        <div className="flex gap-2 ">
+            <Link to={"https://wa.me/+918652869869"}>
+                <div className="flex justify-center items-center lg:px-3 hover:bg-green-700 py-2  text-white text-lg bg-green-800 rounded-xl gap-4"> <FaWhatsapp/> Message</div>
+            </Link>
             <Link to={'/contact'}>
                 <div className="flex justify-center items-center lg:px-3 hover:bg-red-700 py-2  text-white text-lg bg-red-800 rounded-xl gap-4"><IoCall/> Contact</div>
             </Link>
