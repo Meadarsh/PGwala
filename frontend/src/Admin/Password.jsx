@@ -7,7 +7,7 @@ const PasswordPrompt = ({ onAuthenticate }) => {
     const handleSubmit = (e) => {
         e.preventDefault();
         // Check if password is correct
-        if (password === "@dminLogin") {
+        if (password === "admin") {
             onAuthenticate(true); // Authenticate user
         } else {
             setError("Incorrect password. Please try again.");
